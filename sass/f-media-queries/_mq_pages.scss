@@ -1,0 +1,68 @@
+@include breakpoint($movil) { //20em 320px
+
+	// PAGE TEMPLATE CANVASFREE
+	.page-template-page-canvasfree {
+		// NORMALIZE
+		.site-content {
+			padding: 0px;
+			margin: 0px;
+		}
+		#content {
+			padding: 0px !important;
+			margin: 0px !important;
+		}
+		.content-area-cf {
+			.site-main {
+				.entry-header {
+					background-color: $smoothwhite;
+					margin: 0px;
+					.entry-header-wrap {
+						@include container();
+						padding: 4em 1em;
+					} //.entry-header-wrap
+				} //.entry-header
+				.entry-content {
+					background-color: darken($marengo, 20%);
+					.entry-content-wrap {
+						@include container();
+						padding: 2em 1em;
+						p {
+							color: $smoothwhite;
+							a {
+								color: $smoothwhite;
+							}
+						} //p
+					}/* .entry-content-wrap */
+				} //.entry-content
+			} //.site-main
+		} //.content-area-cf
+
+	} //.page-template-page-canvasfree
+
+
+} //breakpoint($movil)
+
+@include breakpoint($tablet) { //30em	480px
+} //breakpoint($tablet)
+
+@include breakpoint($laptop) { //48em 768px
+	/* Pages */
+	.page.page-one-column .entry-header,
+	.pleiades17-front-page.page-one-column .entry-header,
+	.archive.page-one-column:not(.has-sidebar) .page-header {
+		margin-bottom: 4em;
+	}
+	.page:not(.home) #content {
+		padding-bottom: 3.25em;
+	}
+	/* 404 page */
+	.error404 .page-content {
+		padding-bottom: 9em;
+	}
+} //breakpoint($laptop)
+
+@include breakpoint($desktop) { //67em 1072px
+} //breakpoint($desktop)
+
+@include breakpoint($largedesk) { //79em 1264px
+} //breakpoint($largedesk)
