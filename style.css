@@ -477,7 +477,7 @@ html {
 
 /* line 16, sass/b-layout/_base.scss */
 body {
-  background: #fff;
+  background: #FFFFFF;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -3772,7 +3772,7 @@ F. Media Queries
     margin-right: auto;
     padding: 4em 1em;
   }
-  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .page-template-page-canvasfree .content-area-cf .site-main .entry-header .entry-header-wrap:after {
     content: " ";
     display: block;
@@ -3790,7 +3790,7 @@ F. Media Queries
     margin-right: auto;
     padding: 2em 1em;
   }
-  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .page-template-page-canvasfree .content-area-cf .site-main .entry-content .entry-content-wrap:after {
     content: " ";
     display: block;
