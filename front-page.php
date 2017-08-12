@@ -93,21 +93,21 @@
 				<ul>
 					<li>
 						<h4><a href="#">Quae diligentissime contra Aristonem dicuntur a Chryippo</a></h4>
-						<a href="#"><img src="http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17_v1/assets/images/blog/blog1.jpg"></a>
+						<a href="#"><img src="http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17/assets/images/blog/blog1.jpg"></a>
 						<p class="fp-blog-metadata">Escrito en Mayo 17, 2017, 12:15am</p>
 						<p>Sit enim idem caecus, debilis. Istic sum, inquit. Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit; Minime vero, inquit ille, consentit. Itaque vides, quo modo loquantur, nova verba fingunt, deserunt usitata.</p>
 						<a href="#" class="cta">Leer más...</a>
 					</li>
 					<li>
 						<h4><a href="#">Deinde disputat quod cuiusque generis animantium</a></h4>
-						<a href="#"><img src="http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17_v1/assets/images/blog/blog2.jpg"></a>
+						<a href="#"><img src="http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17/assets/images/blog/blog2.jpg"></a>
 						<p class="fp-blog-metadata">Escrito en Mayo 17, 2017, 12:15am</p>
 						<p>Sit enim idem caecus, debilis. Istic sum, inquit. Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit; Minime vero, inquit ille, consentit. Itaque vides, quo modo loquantur, nova verba fingunt, deserunt usitata.</p>
 						<a href="#" class="cta">Leer más...</a>
 					</li>
 					<li>
 						<h4><a href="#">Sit enim idem caecus, debilis istic sum</a></h4>
-						<a href="#"><img src="http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17_v1/assets/images/blog/blog3.jpg"></a>
+						<a href="#"><img src="http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17/assets/images/blog/blog3.jpg"></a>
 						<p class="fp-blog-metadata">Escrito en Mayo 17, 2017, 12:15am</p>
 						<p>Sit enim idem caecus, debilis. Istic sum, inquit. Nec enim, dum metuit, iustus est, et certe, si metuere destiterit, non erit; Minime vero, inquit ille, consentit. Itaque vides, quo modo loquantur, nova verba fingunt, deserunt usitata.</p>
 						<a href="#" class="cta">Leer más...</a>
@@ -129,19 +129,19 @@
 						<h4>Dr. Cruz consectetur adipiscing elit</h4>
 						<p class="fp-test-metadata">Paciente: Sharon Jackson | Mayo 17, 2017</p>
 						<p>Summus dolor plures dies manere non potest? Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. Non dolere, inquam, istud quam vim habeat postea videro</p>
-						<a href="#"><button>Leer más</button></a>
+						<!-- <a href="#"><button>Leer más</button></a> -->
 					</li>
 					<li>
 						<h4>Dr. Cruz consectetur adipiscing elit</h4>
 						<p class="fp-test-metadata">Paciente: Sharon Jackson | Mayo 17, 2017</p>
 						<p>Summus dolor plures dies manere non potest? Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. Non dolere, inquam, istud quam vim habeat postea videro</p>
-						<a href="#"><button>Leer más</button></a>
+						<!-- <a href="#"><button>Leer más</button></a> -->
 					</li>
 					<li>
 						<h4>Dr. Cruz consectetur adipiscing elit</h4>
 						<p class="fp-test-metadata">Paciente: Sharon Jackson | Mayo 17, 2017</p>
 						<p>Summus dolor plures dies manere non potest? Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. Non dolere, inquam, istud quam vim habeat postea videro</p>
-						<a href="#"><button>Leer más</button></a>
+						<!-- <a href="#"><button>Leer más</button></a> -->
 					</li>
 				</ul>
 			</div><!-- class="entry-content" -->

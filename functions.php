@@ -256,7 +256,7 @@ add_action('init', 'add_excerpts_to_pages');
 
 /* REQUIRED FILES */
 // Implement the Custom Header feature
-require get_parent_theme_file_path('/inc/custom-header.php');
+// require get_parent_theme_file_path('/inc/custom-header.php');
 // Template Tags
 require get_parent_theme_file_path('/inc/template-tags.php');
 // Template Functions

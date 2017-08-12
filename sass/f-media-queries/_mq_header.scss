@@ -1,18 +1,77 @@
 @include breakpoint($movil) { //20em 320px
+	// SITE HEADER
+	.site-header {
+		position: relative;
+		background-color: darken($marengo, 20%);
+		// SITE BRANDING
+		.site-branding {
+			.custom-logo-link {
+				display: block;
+				width: 100%;
+				padding: 1em;
+				img {
+					display: block;
+					width: 180px;
+					text-align: center;
+					margin: 0px auto;
+				} //img
+			} //.custom-logo-link
+			.site-branding-text {
+			} //.site-branding-text
+			.header-credentials {
+				h2, h3 {
+					padding: 0px;
+				} //h2, h3
+				h2 {
+					text-align: center;
+					text-transform: uppercase;
+					color: $red;
+					font-weight: $bold;
+					font-size: 14px;
+					font-size: 0.875rem;
+				} //h2
+				h3 {
+					text-align: center;
+					color: $lightsilver;
+					font-weight: $normal;
+					font-size: 14px;
+					font-size: 0.875rem;
+					margin-bottom: 0.5em;
+				} //h3
+				p {
+					text-align: center;
+					font-size: 13px;
+					font-size: 0.8125rem;
+					line-height: 1;
+					color: $darksilver;
+				} //p
+			} //.header-credentials
+			.header-appointment {
+				margin-top: 1em;
+				border-top: 1px dotted $darkgrey;
+				p {
+					text-align: center;
+					color: $lightsilver;
+					.contact-phone {
+						font-weight: $bold;
+						color: $smoothred;
+					}
+				}
+			} //header-appointment
+		} //.site-branding
+	} //.site-header
+
+
 } //breakpoint($movil)
 
 @include breakpoint($tablet) { //30em 480px
-	/* Site Branding */
-	.site-branding {
-		padding: 3em 0;
-	}
+
+
 } //breakpoint($tablet)
 
 @include breakpoint($laptop) { //48em 768px
-	/* Site Branding */
-	.site-branding {
-		margin-bottom: 0;
-	}
+
+	// ORIGINAL STYLES
 	.has-header-image.pleiades17-front-page .site-branding,
 	.has-header-video.pleiades17-front-page .site-branding,
 	.has-header-image.home.blog .site-branding,
@@ -85,7 +144,7 @@
 		transform: rotate(90deg);
 	}
 	.site-header .menu-scroll-down {
-		color: #fff;
+		color: #FFFFFF;
 		top: 2em;
 	}
 	.site-header .navigation-top .menu-scroll-down {
@@ -99,9 +158,113 @@
 		height: 18px;
 		width: 18px;
 	}
+
+	// SITE HEADER
+	.site-header {
+
+		// SITE BRANDING
+		.site-branding {
+
+			.custom-logo-link {
+				@include span(4 of 12);
+				img {
+
+				} //img
+			} //.custom-logo-link
+			.site-branding-text {
+			} //.site-branding-text
+			.header-credentials {
+				@include span(5 of 12 at 5);
+				padding-top: 1em;
+				h2, h3 {
+
+				} //h2, h3
+				h2 {
+
+				} //h2
+				h3 {
+
+				} //h3
+				p {
+
+				} //p
+			} //.header-credentials
+			.header-appointment {
+				@include span(3 of 12 at 10);
+				border-top: none;
+				padding-top: 1em;
+				border-left: 1px dotted $darkgrey;
+				p {
+					font-size: 18px;
+					font-size: 1.125rem;
+					line-height: 1;
+					.contact-phone {
+						display: block;
+						font-size: 20px;
+						font-size: 1.25rem;
+						line-height: 1;
+						font-weight: $normal;
+					}
+				}
+			} //header-appointment
+		} //.site-branding
+	} //.site-header
+
+
 } //breakpoint($laptop)
 
 @include breakpoint($desktop) { //67em 1072px
+	// SITE HEADER
+	.site-header {
+
+		// SITE BRANDING
+		.site-branding {
+
+			.custom-logo-link {
+				@include span(4 of 12);
+				img {
+
+				} //img
+			} //.custom-logo-link
+			.site-branding-text {
+			} //.site-branding-text
+			.header-credentials {
+				@include span(5 of 12 at 5);
+				padding-top: 1em;
+				h2, h3 {
+
+				} //h2, h3
+				h2 {
+					font-size: 16px;
+					font-size: 1rem;
+				} //h2
+				h3 {
+					font-size: 16px;
+					font-size: 1rem;
+				} //h3
+				p {
+					font-size: 15px;
+					font-size: 0.9375rem;
+				} //p
+			} //.header-credentials
+			.header-appointment {
+				@include span(3 of 12 at 10);
+				border-top: none;
+				padding-top: 1em;
+				p {
+					font-size: 22px;
+					font-size: 1.375rem;
+					line-height: 1;
+					.contact-phone {
+						display: block;
+						font-size: 26px;
+						font-size: 1.625rem;
+						line-height: 1;
+					}
+				}
+			} //header-appointment
+		} //.site-branding
+	} //.site-header
 } //breakpoint($desktop)
 
 @include breakpoint($largedesk) { //79em 1264px

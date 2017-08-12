@@ -2,11 +2,6 @@
 	position: relative;
 }
 
-.site-header {
-	position: relative;
-	background: darken($marengo, 10%) url("http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17_v1/assets/images/square_bg.png") repeat right top;
-	// @include backImage($headerImage);
-}
 
 /* Site branding */
 
@@ -39,6 +34,7 @@
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
+	display: none;
 }
 
 .site-title,
@@ -59,6 +55,7 @@ body.has-header-video .site-title a {
 	font-size: 13px;
 	font-size: 0.8125rem;
 	margin-bottom: 0;
+	display: none;
 }
 
 body.has-header-image .site-description,
