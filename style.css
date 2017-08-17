@@ -3046,7 +3046,12 @@ F. Media Queries
     width: 18px;
   }
 
-  /* line 168, sass/f-media-queries/_mq_header.scss */
+  /* line 167, sass/f-media-queries/_mq_header.scss */
+  .site-header .site-branding .wrap {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 172, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .custom-logo-link {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3056,7 +3061,7 @@ F. Media Queries
     padding-left: 1.38889%;
     padding-right: 1.38889%;
   }
-  /* line 176, sass/f-media-queries/_mq_header.scss */
+  /* line 180, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-credentials {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3067,7 +3072,7 @@ F. Media Queries
     padding-right: 1.38889%;
     padding-top: 1em;
   }
-  /* line 192, sass/f-media-queries/_mq_header.scss */
+  /* line 196, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-appointment {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3080,13 +3085,13 @@ F. Media Queries
     padding-top: 1em;
     border-left: 1px dotted #4d4d4d;
   }
-  /* line 197, sass/f-media-queries/_mq_header.scss */
+  /* line 201, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-appointment p {
     font-size: 18px;
     font-size: 1.125rem;
     line-height: 1;
   }
-  /* line 201, sass/f-media-queries/_mq_header.scss */
+  /* line 205, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-appointment p .contact-phone {
     display: block;
     font-size: 20px;
@@ -3096,7 +3101,7 @@ F. Media Queries
   }
 }
 @media (min-width: 1072px) {
-  /* line 223, sass/f-media-queries/_mq_header.scss */
+  /* line 227, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .custom-logo-link {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3106,7 +3111,7 @@ F. Media Queries
     padding-left: 1.38889%;
     padding-right: 1.38889%;
   }
-  /* line 231, sass/f-media-queries/_mq_header.scss */
+  /* line 235, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-credentials {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3117,22 +3122,22 @@ F. Media Queries
     padding-right: 1.38889%;
     padding-top: 1em;
   }
-  /* line 237, sass/f-media-queries/_mq_header.scss */
+  /* line 241, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-credentials h2 {
     font-size: 16px;
     font-size: 1rem;
   }
-  /* line 241, sass/f-media-queries/_mq_header.scss */
+  /* line 245, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-credentials h3 {
     font-size: 16px;
     font-size: 1rem;
   }
-  /* line 245, sass/f-media-queries/_mq_header.scss */
+  /* line 249, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-credentials p {
     font-size: 15px;
     font-size: 0.9375rem;
   }
-  /* line 250, sass/f-media-queries/_mq_header.scss */
+  /* line 254, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-appointment {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3144,13 +3149,13 @@ F. Media Queries
     border-top: none;
     padding-top: 1em;
   }
-  /* line 254, sass/f-media-queries/_mq_header.scss */
+  /* line 258, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-appointment p {
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1;
   }
-  /* line 258, sass/f-media-queries/_mq_header.scss */
+  /* line 262, sass/f-media-queries/_mq_header.scss */
   .site-header .site-branding .header-appointment p .contact-phone {
     display: block;
     font-size: 26px;
@@ -3300,10 +3305,9 @@ F. Media Queries
   }
 }
 @media (min-width: 768px) {
-  /* Navigation */
-  /* line 9, sass/f-media-queries/_mq_navigation.scss */
+  /* NAVIGATION */
+  /* line 12, sass/f-media-queries/_mq_navigation.scss */
   .navigation-top {
-    border: 2px solid teal;
     bottom: 0;
     font-size: 14px;
     font-size: 0.875rem;
@@ -3314,27 +3318,17 @@ F. Media Queries
     z-index: 3;
   }
 
-  /* line 20, sass/f-media-queries/_mq_navigation.scss */
+  /* line 22, sass/f-media-queries/_mq_navigation.scss */
   .navigation-top .wrap {
     max-width: 1000px;
-    /* The font size is 14px here and we need 50px padding in ems */
-    padding: 0.75em 3.4166666666667em;
-  }
-  /* line 24, sass/f-media-queries/_mq_navigation.scss */
-  .navigation-top .wrap .menu1 {
-    border: 1px solid aqua;
-  }
-  /* line 27, sass/f-media-queries/_mq_navigation.scss */
-  .navigation-top .wrap .menu2 {
-    border: 1px solid tomato;
   }
 
-  /* line 32, sass/f-media-queries/_mq_navigation.scss */
+  /* line 25, sass/f-media-queries/_mq_navigation.scss */
   .navigation-top nav {
     margin-left: -1.25em;
   }
 
-  /* line 35, sass/f-media-queries/_mq_navigation.scss */
+  /* line 28, sass/f-media-queries/_mq_navigation.scss */
   .site-navigation-fixed.navigation-top {
     bottom: auto;
     position: fixed;
@@ -3345,60 +3339,60 @@ F. Media Queries
     z-index: 7;
   }
 
-  /* line 44, sass/f-media-queries/_mq_navigation.scss */
+  /* line 37, sass/f-media-queries/_mq_navigation.scss */
   .admin-bar .site-navigation-fixed.navigation-top {
     top: 32px;
   }
 
   /* Main Navigation */
-  /* line 48, sass/f-media-queries/_mq_navigation.scss */
+  /* line 41, sass/f-media-queries/_mq_navigation.scss */
   .js .menu-toggle,
   .js .dropdown-toggle {
     display: none;
   }
 
-  /* line 52, sass/f-media-queries/_mq_navigation.scss */
+  /* line 45, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation {
     width: auto;
   }
 
-  /* line 55, sass/f-media-queries/_mq_navigation.scss */
+  /* line 48, sass/f-media-queries/_mq_navigation.scss */
   .js .main-navigation ul,
   .js .main-navigation ul ul,
   .js .main-navigation > div > ul {
     display: block;
   }
 
-  /* line 60, sass/f-media-queries/_mq_navigation.scss */
+  /* line 53, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul {
     background: transparent;
     padding: 0;
   }
 
-  /* line 64, sass/f-media-queries/_mq_navigation.scss */
+  /* line 57, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation > div > ul {
     border: 0;
     margin-bottom: 0;
     padding: 0;
   }
 
-  /* line 69, sass/f-media-queries/_mq_navigation.scss */
+  /* line 62, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation li {
     border: 0;
     display: inline-block;
   }
 
-  /* line 73, sass/f-media-queries/_mq_navigation.scss */
+  /* line 66, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation li li {
     display: block;
   }
 
-  /* line 76, sass/f-media-queries/_mq_navigation.scss */
+  /* line 69, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation a {
-    padding: 1em 1.25em;
+    padding: 0.5em;
   }
 
-  /* line 79, sass/f-media-queries/_mq_navigation.scss */
+  /* line 72, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul ul {
     background: #fff;
     border: 1px solid #bbb;
@@ -3409,7 +3403,7 @@ F. Media Queries
     z-index: 99999;
   }
 
-  /* line 88, sass/f-media-queries/_mq_navigation.scss */
+  /* line 81, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul li.menu-item-has-children:before,
   .main-navigation ul li.menu-item-has-children:after,
   .main-navigation ul li.page_item_has_children:before,
@@ -3426,7 +3420,7 @@ F. Media Queries
     z-index: 100000;
   }
 
-  /* line 103, sass/f-media-queries/_mq_navigation.scss */
+  /* line 96, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul li.menu-item-has-children.focus:before,
   .main-navigation ul li.menu-item-has-children:hover:before,
   .main-navigation ul li.menu-item-has-children.focus:after,
@@ -3438,51 +3432,51 @@ F. Media Queries
     display: block;
   }
 
-  /* line 113, sass/f-media-queries/_mq_navigation.scss */
+  /* line 106, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul li.menu-item-has-children:before,
   .main-navigation ul li.page_item_has_children:before {
     border-color: transparent transparent #bbb;
     bottom: 0;
   }
 
-  /* line 118, sass/f-media-queries/_mq_navigation.scss */
+  /* line 111, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul li.menu-item-has-children:after,
   .main-navigation ul li.page_item_has_children:after {
     border-color: transparent transparent #fff;
   }
 
-  /* line 122, sass/f-media-queries/_mq_navigation.scss */
+  /* line 115, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul ul li:hover > ul,
   .main-navigation ul ul li.focus > ul {
     left: 100%;
     right: auto;
   }
 
-  /* line 127, sass/f-media-queries/_mq_navigation.scss */
+  /* line 120, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul ul a {
     padding: 0.75em 1.25em;
     width: 16em;
   }
 
-  /* line 131, sass/f-media-queries/_mq_navigation.scss */
+  /* line 124, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation li li {
     -webkit-transition: background-color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out;
   }
 
-  /* line 135, sass/f-media-queries/_mq_navigation.scss */
+  /* line 128, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation li li:hover,
   .main-navigation li li.focus {
     background: #767676;
   }
 
-  /* line 139, sass/f-media-queries/_mq_navigation.scss */
+  /* line 132, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation li li a {
     -webkit-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
   }
 
-  /* line 143, sass/f-media-queries/_mq_navigation.scss */
+  /* line 136, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation li li.focus > a,
   .main-navigation li li:focus > a,
   .main-navigation li li:hover > a,
@@ -3495,14 +3489,14 @@ F. Media Queries
     color: #fff;
   }
 
-  /* line 154, sass/f-media-queries/_mq_navigation.scss */
+  /* line 147, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul li:hover > ul,
   .main-navigation ul li.focus > ul {
     left: 0.5em;
     right: auto;
   }
 
-  /* line 159, sass/f-media-queries/_mq_navigation.scss */
+  /* line 152, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation .menu-item-has-children > a > .icon,
   .main-navigation .page_item_has_children > a > .icon {
     display: inline;
@@ -3511,7 +3505,7 @@ F. Media Queries
     top: -1px;
   }
 
-  /* line 166, sass/f-media-queries/_mq_navigation.scss */
+  /* line 159, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul ul .menu-item-has-children > a > .icon,
   .main-navigation ul ul .page_item_has_children > a > .icon {
     margin-top: -9px;
@@ -3526,14 +3520,14 @@ F. Media Queries
     transform: rotate(-90deg);
   }
 
-  /* line 177, sass/f-media-queries/_mq_navigation.scss */
+  /* line 170, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul ul ul {
     left: -999em;
     margin-top: -1px;
     top: 0;
   }
 
-  /* line 182, sass/f-media-queries/_mq_navigation.scss */
+  /* line 175, sass/f-media-queries/_mq_navigation.scss */
   .main-navigation ul ul li.menu-item-has-children.focus:before,
   .main-navigation ul ul li.menu-item-has-children:hover:before,
   .main-navigation ul ul li.menu-item-has-children.focus:after,
@@ -3545,18 +3539,128 @@ F. Media Queries
     display: none;
   }
 
-  /* line 192, sass/f-media-queries/_mq_navigation.scss */
+  /* line 185, sass/f-media-queries/_mq_navigation.scss */
   .site-header .site-navigation-fixed .menu-scroll-down {
     display: none;
   }
+
+  /* line 190, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top {
+    background-color: #e6e6e6;
+    border-bottom: none;
+  }
+  /* line 194, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap {
+    padding: 0px;
+  }
+  /* line 196, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 {
+    display: block;
+  }
+  /* line 198, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav {
+    margin-left: 0px;
+  }
+  /* line 200, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    padding: 0.5em 0px;
+  }
+  /* line 206, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav ul li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border-left: none;
+    border-right: 1px solid #FFFFFF;
+    box-shadow: #dedede 1px 0 0 inset;
+    padding: 0px;
+    margin: 0px;
+  }
+  /* line 215, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav ul li:first-child {
+    box-shadow: none;
+  }
+  /* line 218, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav ul li:last-child {
+    border-right: none;
+  }
+  /* line 221, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-size: 16em;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0a0a0a;
+    text-shadow: 0px 0px 2px #FFFFFF;
+  }
+  /* line 233, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu1bg .wrap .menu1 nav ul li a:hover, .navigation-top .menu1bg .wrap .menu1 nav ul li a:focus {
+    color: #b5021f;
+  }
+  /* line 246, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg {
+    background-color: #3f444d;
+  }
+  /* line 248, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap {
+    padding: 0px;
+  }
+  /* line 251, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap .menu2 nav {
+    margin-left: 0px;
+  }
+  /* line 253, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap .menu2 nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-evenly;
+  }
+  /* line 259, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap .menu2 nav ul li {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    border-left: 1px solid gray;
+  }
+  /* line 264, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap .menu2 nav ul li:last-child {
+    border-right: 1px solid gray;
+  }
+  /* line 267, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap .menu2 nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    line-height: 1.1;
+    padding: 1em 0px;
+    color: #cccccc;
+  }
+  /* line 276, sass/f-media-queries/_mq_navigation.scss */
+  .navigation-top .menu2bg .wrap .menu2 nav ul li a:hover, .navigation-top .menu2bg .wrap .menu2 nav ul li a:focus {
+    color: #b5021f;
+    background-color: #4a515b;
+  }
 }
 @media (min-width: 1072px) {
-  /* line 198, sass/f-media-queries/_mq_navigation.scss */
+  /* line 297, sass/f-media-queries/_mq_navigation.scss */
   .navigation-top .wrap {
     padding: 0.75em 2em;
   }
 
-  /* line 201, sass/f-media-queries/_mq_navigation.scss */
+  /* line 300, sass/f-media-queries/_mq_navigation.scss */
   .navigation-top nav {
     margin-left: 0;
   }
@@ -4069,11 +4173,10 @@ F. Media Queries
   }
   /* line 70, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel2 .wrap {
-    min-height: 200px;
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  /* line 75, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 74, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel2 .wrap .entry-header h3 {
     color: #4a515b;
     text-transform: uppercase;
@@ -4083,7 +4186,7 @@ F. Media Queries
     text-align: center;
     margin-bottom: 0.5em;
   }
-  /* line 86, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 85, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel2 .wrap .entry-content p {
     color: #0a0a0a;
     text-align: center;
@@ -4092,17 +4195,17 @@ F. Media Queries
     font-weight: 300;
     line-height: 1.3;
   }
-  /* line 100, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 99, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 {
     background-color: #f4f4f4;
   }
-  /* line 102, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 101, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap {
     min-height: 400px;
     padding-top: 2em;
     padding-bottom: 2em;
   }
-  /* line 107, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 106, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-header h3 {
     color: #221376;
     text-transform: uppercase;
@@ -4112,11 +4215,11 @@ F. Media Queries
     text-align: center;
     margin-bottom: 0.5em;
   }
-  /* line 118, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 117, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul {
     padding-bottom: 0px;
   }
-  /* line 120, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 119, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li {
     background-color: #FFFFFF;
     padding: 1em;
@@ -4125,11 +4228,11 @@ F. Media Queries
     border-bottom: 1px solid #cccccc;
     border-right: 1px solid #e6e6e6;
   }
-  /* line 131, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 130, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li h4 {
     margin-bottom: 1em;
   }
-  /* line 133, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 132, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li h4 a {
     color: #221376;
     font-size: 20px;
@@ -4141,11 +4244,11 @@ F. Media Queries
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  /* line 140, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 139, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li h4 a:hover, .home .panel3 .wrap .entry-content ul li h4 a:focus {
     color: #0a0a0a;
   }
-  /* line 146, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 145, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li p {
     color: #4a515b;
     text-align: center;
@@ -4155,7 +4258,7 @@ F. Media Queries
     line-height: 1.3;
     margin-bottom: 1em;
   }
-  /* line 155, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 154, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li #circle {
     width: 150px;
     height: 150px;
@@ -4165,22 +4268,22 @@ F. Media Queries
     display: block;
     margin: 0px auto;
   }
-  /* line 161, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 160, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li #circle img {
     width: 100%;
     height: 100%;
   }
-  /* line 173, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 172, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 {
     background-color: #4a515b;
   }
-  /* line 175, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 174, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap {
     min-height: 400px;
     padding-top: 2em;
     padding-bottom: 1em;
   }
-  /* line 180, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 179, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-header h3 {
     color: #fafafa;
     text-transform: uppercase;
@@ -4189,22 +4292,22 @@ F. Media Queries
     font-size: 1.5rem;
     text-align: center;
   }
-  /* line 190, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 189, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul {
     padding-bottom: 0px;
   }
-  /* line 192, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 191, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li {
     padding: 1em 0px;
     list-style: none;
     border-bottom: 1px dotted #33383f;
   }
-  /* line 196, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 195, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li:last-child {
     padding-bottom: 0px;
     border-bottom: none;
   }
-  /* line 200, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 199, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li img {
     width: 100%;
     display: block;
@@ -4212,7 +4315,7 @@ F. Media Queries
     border: 2px solid #e1e1e1;
     margin-bottom: 0.5em;
   }
-  /* line 207, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 206, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li .fp-blog-metadata {
     font-size: 14px;
     font-size: 0.875rem;
@@ -4220,11 +4323,11 @@ F. Media Queries
     line-height: 1;
     margin-bottom: 1em;
   }
-  /* line 214, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 213, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li h4 {
     margin-bottom: 0.5em;
   }
-  /* line 216, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 215, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li h4 a {
     color: #FFFFFF;
     font-size: 20px;
@@ -4236,11 +4339,11 @@ F. Media Queries
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  /* line 223, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 222, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li h4 a:hover, .home .panel4 .wrap .entry-content ul li h4 a:focus {
     color: #0a0a0a;
   }
-  /* line 229, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 228, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li p {
     color: #fafafa;
     font-size: 16px;
@@ -4249,7 +4352,7 @@ F. Media Queries
     line-height: 1.3;
     margin-bottom: 0.5em;
   }
-  /* line 237, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 236, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li .cta {
     font-family: "Rokkitt", serif;
     font-size: 18px;
@@ -4263,24 +4366,24 @@ F. Media Queries
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
-  /* line 246, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 245, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li .cta:hover, .home .panel4 .wrap .entry-content ul li .cta:focus {
     color: #f4f4f4;
     border-bottom-color: #f4f4f4;
   }
-  /* line 259, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 258, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 {
     background-color: #33383f;
     background-image: url("http://localhost/~ronyortiz/sites2017/unicad17/wp-content/themes/pleiades17/assets/images/web/pattern1.png");
     background-repeat: repeat;
   }
-  /* line 263, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 262, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap {
     min-height: 400px;
     padding-top: 2em;
     padding-bottom: 1em;
   }
-  /* line 268, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 267, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-header h3 {
     color: #fafafa;
     text-transform: uppercase;
@@ -4289,22 +4392,22 @@ F. Media Queries
     font-size: 1.5rem;
     text-align: center;
   }
-  /* line 280, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 279, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul {
     margin-bottom: 0px;
   }
-  /* line 282, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 281, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul li {
     border-bottom: 1px dotted #cccccc;
     padding: 1em 0px;
     list-style: none;
     text-align: center;
   }
-  /* line 287, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 286, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul li:last-child {
     border-bottom: none;
   }
-  /* line 290, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 289, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul li h4 {
     color: #FFFFFF;
     font-size: 20px;
@@ -4313,14 +4416,14 @@ F. Media Queries
     font-weight: 300;
     margin-bottom: 0.5em;
   }
-  /* line 298, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 297, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul li p {
     color: #b3b3b3;
     font-size: 15px;
     font-size: 0.9375rem;
     margin-bottom: 1em;
   }
-  /* line 305, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 304, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul li a button {
     font-family: "Rokkitt", serif;
     font-size: 15px;
@@ -4329,30 +4432,30 @@ F. Media Queries
     color: #b3b3b3;
     margin-bottom: 0.5em;
   }
-  /* line 314, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 313, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content ul li .fp-test-metadata {
     font-size: 14px;
     font-size: 0.875rem;
     color: #b5021f;
     line-height: 1.2;
   }
-  /* line 328, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 327, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap {
     min-height: 350px;
     padding-top: 1em;
   }
-  /* line 332, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 331, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap .entry-header h3 {
     color: Indigo;
     text-transform: uppercase;
     text-align: center;
   }
-  /* line 339, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 338, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap .entry-content p {
     color: Indigo;
     text-align: center;
   }
-  /* line 343, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 342, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap .entry-content ul {
     overflow: hidden;
     *zoom: 1;
@@ -4360,14 +4463,14 @@ F. Media Queries
     margin: 0px auto;
     width: 80%;
   }
-  /* line 348, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 347, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap .entry-content ul li {
     list-style: none;
     display: inline;
     text-align: center;
     padding: 0px;
   }
-  /* line 353, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 352, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap .entry-content ul li img {
     max-width: 40%;
     height: auto;
@@ -4376,52 +4479,52 @@ F. Media Queries
 }
 @media (min-width: 480px) {
   /* Front Page */
-  /* line 369, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 368, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .wrap {
     /* padding-bottom: 2em;
     padding-top: 3.5em; */
   }
 
-  /* line 373, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 372, sass/f-media-queries/_mq_frontpage.scss */
   .page-one-column .panel-content .wrap {
     max-width: 740px;
   }
 
-  /* line 376, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 375, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .entry-header {
     margin-bottom: 4.5em;
   }
 
-  /* line 379, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 378, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 0;
   }
 
-  /* line 382, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 381, sass/f-media-queries/_mq_frontpage.scss */
   .home {
     /* SERVICES */
     /* BLOG */
   }
-  /* line 385, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 384, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 {
     padding: 0px;
   }
-  /* line 387, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 386, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 390, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 389, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-header {
     margin-bottom: 0px;
   }
-  /* line 395, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 394, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 399, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 398, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li {
     margin: 5px;
     width: 220px;
@@ -4429,23 +4532,23 @@ F. Media Queries
     flex-shrink: 0;
     flex-basis: auto; */
   }
-  /* line 444, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 443, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 448, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 447, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li {
     margin: 1em;
     width: 320px;
   }
-  /* line 451, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 450, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li:last-child {
     padding-bottom: 1em;
     border-bottom: 1px dotted #33383f;
   }
-  /* line 455, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 454, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li img {
     width: auto;
     display: block;
@@ -4456,7 +4559,7 @@ F. Media Queries
 }
 @media (min-width: 768px) {
   /* Front Page Original */
-  /* line 499, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 498, sass/f-media-queries/_mq_frontpage.scss */
   .pleiades17-front-page.has-header-image .site-branding,
   .pleiades17-front-page.has-header-video .site-branding,
   .home.blog.has-header-image .site-branding,
@@ -4464,7 +4567,7 @@ F. Media Queries
     margin-bottom: 70px;
   }
 
-  /* line 505, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 504, sass/f-media-queries/_mq_frontpage.scss */
   .pleiades17-front-page.has-header-image .custom-header-media,
   .pleiades17-front-page.has-header-video .custom-header-media,
   .home.blog.has-header-image .custom-header-media,
@@ -4475,7 +4578,7 @@ F. Media Queries
     overflow: hidden;
   }
 
-  /* line 514, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 513, sass/f-media-queries/_mq_frontpage.scss */
   .pleiades17-front-page.has-header-image .custom-header-media:before,
   .pleiades17-front-page.has-header-video .custom-header-media:before,
   .home.blog.has-header-image .custom-header-media:before,
@@ -4483,7 +4586,7 @@ F. Media Queries
     height: 33%;
   }
 
-  /* line 520, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 519, sass/f-media-queries/_mq_frontpage.scss */
   .admin-bar.pleiades17-front-page.has-header-image .custom-header-media,
   .admin-bar.pleiades17-front-page.has-header-video .custom-header-media,
   .admin-bar.home.blog.has-header-image .custom-header-media,
@@ -4491,49 +4594,49 @@ F. Media Queries
     height: calc(100vh - 32px);
   }
 
-  /* line 526, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 525, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .wrap {
     padding-bottom: 4.5em;
     padding-top: 6em;
   }
 
-  /* line 530, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 529, sass/f-media-queries/_mq_frontpage.scss */
   .panel-image {
     height: 100vh;
     max-height: 1200px;
   }
 
-  /* line 534, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 533, sass/f-media-queries/_mq_frontpage.scss */
   .background-fixed .panel-image {
     background-attachment: fixed;
   }
 
-  /* line 537, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 536, sass/f-media-queries/_mq_frontpage.scss */
   .page-two-column .panel-content .entry-header {
     float: left;
     width: 36%;
   }
 
-  /* line 541, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 540, sass/f-media-queries/_mq_frontpage.scss */
   .page-two-column .panel-content .entry-content {
     float: right;
     width: 58%;
   }
 
   /* Front Page - Recent Posts */
-  /* line 546, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 545, sass/f-media-queries/_mq_frontpage.scss */
   .page-two-column .panel-content .recent-posts {
     clear: right;
     float: right;
     width: 58%;
   }
 
-  /* line 551, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 550, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .recent-posts article {
     margin-bottom: 4em;
   }
 
-  /* line 554, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 553, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .recent-posts .entry-header,
   .page-two-column #primary .panel-content .recent-posts .entry-header,
   .panel-content .recent-posts .entry-content,
@@ -4542,18 +4645,18 @@ F. Media Queries
     width: 100%;
   }
 
-  /* line 561, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 560, sass/f-media-queries/_mq_frontpage.scss */
   .panel-content .recent-posts .entry-header {
     margin-bottom: 1.5em;
   }
 
-  /* line 564, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 563, sass/f-media-queries/_mq_frontpage.scss */
   .page .panel-content .recent-posts .entry-title {
     font-size: 26px;
     font-size: 1.625rem;
   }
 
-  /* line 570, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 569, sass/f-media-queries/_mq_frontpage.scss */
   .home {
     /* Frontpage Slider */
     /* Intro */
@@ -4562,67 +4665,76 @@ F. Media Queries
     /* Testimonials */
     /* Awards */
   }
-  /* line 575, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 574, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel1 .wrap .entry-header {
     margin-bottom: 0px;
   }
-  /* line 584, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 583, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel2 .wrap .entry-header {
     margin-bottom: 0px;
   }
-  /* line 590, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 589, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 {
     padding: 0px;
   }
-  /* line 592, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 591, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 595, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 594, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-header {
     margin-bottom: 0px;
   }
-  /* line 600, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 599, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 604, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 603, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel3 .wrap .entry-content ul li {
-    margin: 5px 5px 0px;
+    margin: 5px 0.5em 0.5em;
     padding: 1em 1em 2em;
-    width: 240px;
+    width: 250px;
     /* flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto; */
   }
-  /* line 641, sass/f-media-queries/_mq_frontpage.scss */
+}
+@media (min-width: 768px) and (min-width: 960px) {
+  /* line 603, sass/f-media-queries/_mq_frontpage.scss */
+  .home .panel3 .wrap .entry-content ul li {
+    margin: 5px 5px 0px;
+    width: 230px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 644, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap {
     padding-left: 0px;
     padding-right: 0px;
   }
-  /* line 644, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 647, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-header {
     margin-bottom: 0px;
   }
-  /* line 648, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 651, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  /* line 652, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 655, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel4 .wrap .entry-content ul li {
     margin: 1em;
     width: 270px;
   }
-  /* line 697, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 700, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-header {
     margin-bottom: 0px;
   }
-  /* line 700, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 703, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel5 .wrap .entry-content {
     max-width: 650px;
     margin-left: auto;
@@ -4634,9 +4746,24 @@ F. Media Queries
     display: block;
     clear: both;
   }
-  /* line 709, sass/f-media-queries/_mq_frontpage.scss */
+  /* line 712, sass/f-media-queries/_mq_frontpage.scss */
   .home .panel6 .wrap .entry-header {
     margin-bottom: 0px;
+  }
+}
+@media (min-width: 1072px) {
+  /* line 723, sass/f-media-queries/_mq_frontpage.scss */
+  .home {
+    /* Four main services */
+  }
+  /* line 735, sass/f-media-queries/_mq_frontpage.scss */
+  .home .panel3 .wrap .entry-content ul li {
+    margin: 5px 5px 0px;
+    padding: 1em 1em 2em;
+    width: 240px;
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto; */
   }
 }
 @media (min-width: 320px) {

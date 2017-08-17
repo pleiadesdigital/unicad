@@ -68,7 +68,6 @@
 		.panel2 {
 			background-color: $white;
 			.wrap {
-				min-height: 200px;
 				padding-top: 2em;
 				padding-bottom: 2em;
 				.entry-header {
@@ -602,9 +601,13 @@
 						flex-wrap: wrap;
 						justify-content: center;
 						li {
-							margin: 5px 5px 0px;
+							margin: 5px 0.5em 0.5em;
 							padding: 1em 1em 2em;
-							width: 240px;
+							width: 250px;
+							@include breakpoint(960px) {
+								margin: 5px 5px 0px;
+								width: 230px;
+							}
 							/* flex-grow: 0;
 							flex-shrink: 0;
 							flex-basis: auto; */
@@ -716,7 +719,70 @@
 } //breakpoint($laptop) 48em 768px
 
 @include breakpoint($desktop) { //67em 1072px
+
+.home {
+	/* Four main services */
+	.panel3 {
+
+		.wrap {
+
+			.entry-header {
+
+			} //.entry-header
+			.entry-content {
+				ul {
+
+					li {
+						margin: 5px 5px 0px;
+						padding: 1em 1em 2em;
+						width: 240px;
+						/* flex-grow: 0;
+						flex-shrink: 0;
+						flex-basis: auto; */
+						&:last-child {
+
+						}
+						h4 {
+
+							a {
+
+								&:hover,
+								&:focus {
+
+								} //&:hover, &:focus
+							} //a
+						}
+						p {
+
+						} //p
+						#circle {
+
+							img {
+
+							} //img
+						} //#circle
+					} //li
+				} //ul
+			} //.entry-content
+		} //.wrap
+	} //.panel3
+}
+
 } //breakpoint($desktop)
 
 @include breakpoint($largedesk) { //79em 1264px
 } //breakpoint($largedesk)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

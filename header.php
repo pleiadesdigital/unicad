@@ -19,17 +19,25 @@
 		<?php get_template_part('template-parts/header/header', 'content'); ?>
 
 
-
-		<?php if (has_nav_menu('top')) : ?>
+		<?php if (has_nav_menu('top') && (has_nav_menu('serv'))) : ?>
 			<div class="navigation-top">
-				<div class="wrap">
-					<div class="menu1">
-						<?php get_template_part('template-parts/navigation/navigation', 'top'); ?>
-					</div>
-					<div class="menu2">
-						<?php get_template_part('template-parts/navigation/navigation', 'serv'); ?>
-					</div>
-				</div><!-- .wrap -->
+				<div class="menu1bg">
+					<div class="wrap">
+						<div class="menu1">
+							<?php get_template_part('template-parts/navigation/navigation', 'top'); ?>
+						</div>
+					</div><!-- .wrap -->
+				</div><!-- class="menu1bg" -->
+
+				<div class="menu2bg">
+					<div class="wrap">
+						<div class="menu2">
+							<?php get_template_part('template-parts/navigation/navigation', 'serv'); ?>
+						</div>
+					</div><!-- .wrap -->
+				</div>
+
+
 			</div><!-- .navigation-top -->
 		<?php endif; ?>
 

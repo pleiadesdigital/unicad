@@ -23,6 +23,7 @@ function pleiades17_setup() {
 	// NAVIGATION
 	register_nav_menus(array(
 		'top'    => __('Top Menu', 'pleiades17'),
+		'serv'    => __('Services Menu', 'pleiades17'),
 		'social' => __('Social Links Menu', 'pleiades17'),
 	));
 	// HTML5 support

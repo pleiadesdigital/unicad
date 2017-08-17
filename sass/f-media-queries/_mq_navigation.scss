@@ -5,9 +5,11 @@
 } //breakpoint($tablet)
 
 @include breakpoint($laptop) { //48em 768px
-	/* Navigation */
+
+	/* NAVIGATION */
+
+	// Original Styles
 	.navigation-top {
-		border: 2px solid teal;
 		bottom: 0;
 		font-size: 14px;
 		font-size: 0.875rem;
@@ -19,15 +21,6 @@
 	}
 	.navigation-top .wrap {
 		max-width: 1000px;
-		/* The font size is 14px here and we need 50px padding in ems */
-		padding: 0.75em 3.4166666666667em;
-		.menu1 {
-			border: 1px solid aqua;
-		} //.menu1
-		.menu2 {
-			border: 1px solid tomato;
-		} //.menu2
-
 	}
 	.navigation-top nav {
 		margin-left: -1.25em;
@@ -74,7 +67,7 @@
 		display: block;
 	}
 	.main-navigation a {
-		padding: 1em 1.25em;
+		padding: 0.5em;
 	}
 	.main-navigation ul ul {
 		background: #fff;
@@ -192,6 +185,112 @@
 	.site-header .site-navigation-fixed .menu-scroll-down {
 		display: none;
 	}
+
+	// Custom Styles
+	.navigation-top {
+		background-color: $lightsilver;
+		border-bottom: none;
+		.menu1bg {
+			.wrap {
+				padding: 0px;
+				.menu1 {
+					display: block;
+					nav {
+						margin-left: 0px;
+						ul {
+							display: flex;
+							flex-direction: row;
+							flex-wrap: no-wrap;
+							justify-content: space-between;
+							padding: 0.5em 0px;
+							li {
+								flex-grow: 1;
+								flex-shrink: 1;
+								flex-basis: 0;
+								border-left: none;
+								border-right: 1px solid $white;
+								box-shadow: #dedede 1px 0 0 inset;
+								padding: 0px;
+								margin: 0px;
+								&:first-child {
+									box-shadow: none;
+								}
+								&:last-child {
+									border-right: none;
+								}
+								a {
+									display: flex;
+									align-items: center;
+									justify-content: center;
+									text-align: center;
+									height: 100%;
+									line-height: 1.1;
+									text-transform: uppercase;
+									font-size: 16em;
+									font-size: 1rem;
+									font-weight: $normal;
+									color: $carbon;
+									&:hover,
+									&:focus {
+										color: $red;
+									}
+									@include single-text-shadow(0px, 0px, 2px ,false, $white);
+								} //a
+							} //li
+						} //nav
+					} //ul
+				} //.menu1
+			} //.wrap
+		} //.menu1bg
+
+		.menu2bg {
+			background-color: darken($marengo, 5%);
+			.wrap {
+				padding: 0px;
+				.menu2 {
+					nav {
+						margin-left: 0px;
+						ul {
+							display: flex;
+							flex-direction: row;
+							flex-wrap: no-wrap;
+							justify-content: space-evenly;
+
+							li {
+								flex-grow: 1;
+								flex-shrink: 1;
+								flex-basis: 0;
+								border-left: 1px solid $lightgrey;
+								&:last-child {
+									border-right: 1px solid $lightgrey;
+								}
+								a {
+									display: flex;
+									align-items: center;
+									justify-content: center;
+									text-align: center;
+									height: 100%;
+									line-height: 1.1;
+									padding: 1em 0px;
+									color: $midsilver;
+									&:hover,
+									&:focus {
+										color: $red;
+										background-color: $marengo;
+									}
+								} //a
+							} //li
+						} //ul
+					} //nav
+				} //.menu2
+			} //.wrap
+		} //.menu2bg
+
+	} //.navigation-top
+
+
+
+
 } //breakpoint($laptop)
 
 @include breakpoint($desktop) { //67em 1072px

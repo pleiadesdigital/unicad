@@ -4,7 +4,7 @@ jQuery(window).load(function() {
 	jQuery('#slider').flexslider({
 		animation: 'fade',
 		sync: '#carousel',
-		slideshow: true,
+		slideshow: false,
 		// directionNav: false,
 	});
 });

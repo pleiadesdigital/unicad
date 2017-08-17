@@ -164,6 +164,10 @@
 
 		// SITE BRANDING
 		.site-branding {
+			.wrap {
+				padding-left: 0px;
+				padding-right: 0px;
+			}
 
 			.custom-logo-link {
 				@include span(4 of 12);
